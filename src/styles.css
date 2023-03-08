@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Popins';
+  src: url('./assets/Polices/Poppins-Regular.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Popins', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  width: 10px;
+  border-radius:8px;
+  background-color: #f6f6f6;
+}

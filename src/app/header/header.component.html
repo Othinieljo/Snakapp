@@ -1,0 +1,21 @@
+<header>
+  <nav>
+    <div class="logo" routerLink="" >
+      <img src="./../../assets/logo.png" alt="SNAK CONSULTING">
+      <h1> <span>S</span>NAK CONSULTING</h1>
+    </div>
+    <ul>
+      <li>Catégories <fa-icon class="down" [icon]="down"></fa-icon></li>
+      <li>Deals</li>
+
+    </ul>
+    <div class="search">
+      <input type="text" name="search" id="search" placeholder="Cherchez un produit">
+      <fa-icon [icon]="search"></fa-icon>
+    </div>
+    <div class="account">
+      <a  >  <fa-icon [icon]="user"></fa-icon> Compte </a>
+      <a routerLink="panier">  <fa-icon [icon]="cart"></fa-icon>  Panier</a>
+    </div>
+  </nav>
+</header>

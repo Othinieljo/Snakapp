@@ -1,0 +1,59 @@
+header{
+  margin: 0px 30px;
+
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #152878;
+  cursor: pointer;
+}
+.logo span{
+  color: #CBB26A;
+  font-size: 40px;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+nav ul {
+  display: flex;
+
+}
+nav ul li{
+  margin-right: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.down{
+  margin-top: 4px;
+  cursor: pointer;
+}
+.search input{
+  margin-top: 15px;
+  border-radius: 15px;
+  width: 220px;
+  background-color: #EBEDEC;
+  outline: none;
+  border: 0px;
+  height: 25px;
+  padding: 5px;
+  padding-right: 5px;
+
+}
+.account{
+  margin-top: 20px;
+
+}
+.account a{
+  color: #000;
+  margin-right: 20px;
+}
+

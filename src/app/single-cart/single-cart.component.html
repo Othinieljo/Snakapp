@@ -1,0 +1,21 @@
+<div class="cart-g" *ngIf="cart$ | async as cart">
+  <div class="cart">
+
+    <img [src]="cart.imageUrl" [alt]="cart.description">
+    <fa-icon (click) = "onColor()"  [ngStyle]="{ color: this.color }" class="icon" [icon]="heart"></fa-icon>
+
+
+  </div>
+  <div class="infos">
+    <h3> {{cart.title}}     </h3>
+  <p> {{cart.price}} </p>
+
+  </div>
+  <p>{{cart.description}} </p>
+
+  <button>Ajouter au panier</button>
+
+
+
+</div>
+

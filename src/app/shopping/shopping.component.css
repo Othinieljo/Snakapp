@@ -1,0 +1,32 @@
+.cart{
+  height: 170px;
+  border: 1px solid #fff;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+
+}
+.title{
+  display: flex;
+  align-items: center;
+}
+
+.cart h1{
+  margin-left: 0px;
+}
+.img{
+  border-radius: 22px;
+  background-color: #f6f6f6;
+  margin-right: 20px;
+}
+.cart img{
+  width: 100px;
+  height: 100px;
+}
+p{
+  align-items: center;
+}
